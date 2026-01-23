@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #1f1701;
+    padding: 20px;
+}
+
+.icon-section {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    background: #423701;
+    padding: 30px;
+    border-radius: 5% 5% 0 0;
+    border: 1px solid rgb(214, 182, 0);
+    border-bottom: none;
+}
+
+.icon-section p {
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.icon-section .bi-person-circle {
+    font-size: 4rem;
+    color: rgb(255, 217, 0);
+}
+
+.logincontainer {
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 0 0 5% 5%;
+    border: 1px solid rgb(214, 182, 0);
+    border-top: none;
+    padding: 30px;
+    background: #423701;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.input-group input, 
+.input-group select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid rgb(255, 217, 0);
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.input-group input:focus, 
+.input-group select:focus {
+    border-color: rgb(255, 217, 0);
+    outline: none;
+    box-shadow: 0 0 0 2px rgb(59, 51, 2);
+}
+
+.submitbtn {
+    width: 100%;
+    padding: 12px;
+    background: rgb(255, 217, 0);
+    border: none;
+    border-radius: 8px;
+    color: rgba(90, 74, 74, 0.863);
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.submitbtn:hover {
+    background: rgb(214, 182, 0);
+}
+
+.register {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 0.95rem;
+    color: #ffffff;
+}
+
+.register a {
+    color: rgb(12, 219, 222);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.register a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .logincontainer, .icon-section {
+        padding: 20px;
+    }
+}
