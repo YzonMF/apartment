@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenant Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="CSS/tenanthome.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><i class="bi bi-house-door-fill"></i> Tenant Dashboard</h1>
+            <p>Welcome back, John Doe</p>
+        </div>
+
+        <div class="dashboard-grid">
+            <div class="card">
+                <div class="card-header">
+                    <i class="bi bi-person-circle"></i>
+                    <h3>Account Status</h3>
+                </div>
+                <div class="card-content">
+                    <p><strong>Membership ID:</strong> TEN-2024-001</p>
+                    <p><strong>Unit:</strong> Building A, Room 305</p>
+                    <span class="status active">Active</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <i class="bi bi-credit-card"></i>
+                    <h3>Payment Status</h3>
+                </div>
+                <div class="card-content">
+                    <p><strong>Current Month:</strong> January 2026</p>
+                    <p><strong>Amount Due:</strong> ₱12,000.00</p>
+                    <p><strong>Due Date:</strong> February 5, 2026</p>
+                    <span class="status paid">Paid</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <i class="bi bi-tools"></i>
+                    <h3>Maintenance Requests</h3>
+                </div>
+                <div class="card-content">
+                    <p><strong>Active Requests:</strong> 1</p>
+                    <p><strong>Last Request:</strong> Leaking faucet</p>
+                    <p><strong>Submitted:</strong> January 28, 2026</p>
+                    <span class="status pending">In Progress</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <i class="bi bi-building"></i>
+                    <h3>Building Information</h3>
+                </div>
+                <div class="card-content">
+                    <p><strong>Building:</strong> Building A</p>
+                    <p><strong>Floor:</strong> 3rd Floor</p>
+                    <p><strong>Room Type:</strong> 1 Bedroom</p>
+                    <p><strong>Size:</strong> 35 sqm</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2><i class="bi bi-info-circle"></i> Rental Details</h2>
+            <div class="info-grid">
+                <div class="info-item">
+                    <label>Monthly Rent</label>
+                    <span>₱12,000.00</span>
+                </div>
+                <div class="info-item">
+                    <label>Contract Start</label>
+                    <span>January 1, 2024</span>
+                </div>
+                <div class="info-item">
+                    <label>Contract End</label>
+                    <span>December 31, 2026</span>
+                </div>
+                <div class="info-item">
+                    <label>Security Deposit</label>
+                    <span>₱24,000.00</span>
+                </div>
+                <div class="info-item">
+                    <label>Advance Payment</label>
+                    <span>1 Month</span>
+                </div>
+                <div class="info-item">
+                    <label>Contact Person</label>
+                    <span>Property Manager</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="notifications">
+            <h2><i class="bi bi-bell"></i> Recent Notifications</h2>
+            
+            <div class="notification-item">
+                <h4><i class="bi bi-check-circle"></i> Payment Confirmed</h4>
+                <p>Your payment for January 2026 has been received and confirmed.</p>
+                <span class="date">January 29, 2026</span>
+            </div>
+
+            <div class="notification-item">
+                <h4><i class="bi bi-wrench"></i> Maintenance Update</h4>
+                <p>Your maintenance request for leaking faucet is now in progress. Expected completion: February 1, 2026.</p>
+                <span class="date">January 28, 2026</span>
+            </div>
+
+            <div class="notification-item">
+                <h4><i class="bi bi-exclamation-triangle"></i> Building Notice</h4>
+                <p>Scheduled water interruption on February 3, 2026 from 9:00 AM to 12:00 PM for maintenance.</p>
+                <span class="date">January 27, 2026</span>
+            </div>
+
+            <div class="notification-item">
+                <h4><i class="bi bi-calendar-event"></i> Rent Reminder</h4>
+                <p>Your next rent payment of ₱12,000.00 is due on March 5, 2026.</p>
+                <span class="date">January 25, 2026</span>
+            </div>
+        </div>
+
+        <div class="quick-actions">
+            <a href="#" class="action-btn">
+                <i class="bi bi-file-text"></i> Submit Maintenance Request
+            </a>
+            <a href="#" class="action-btn">
+                <i class="bi bi-person-gear"></i> Update Profile
+            </a>
+        </div>
+    </div>
+</body>
+</html> 
